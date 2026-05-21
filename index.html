@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+    <audio id="bgmusic" loop>
+    <source src="1779320152994155.m4a" type="audio/mp4">
+    </audio>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>firstpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- SVG Flower & Unicorn Illustration Library -->
+    <svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+
+    <!-- SUNFLOWER -->
+    <symbol id="g-sunflower" viewBox="0 0 100 160">
+      <path d="M50,88 C49,108 47,132 46,160" stroke="#4a8c1f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M50,110 C34,102 26,88 30,78 C38,92 46,104 50,110Z" fill="#3d7a18"/>
+      <path d="M50,128 C66,120 74,106 70,96 C62,110 53,120 50,128Z" fill="#3d7a18"/>
+      <g transform="translate(50,52)">
+        <ellipse rx="6" ry="20" fill="#FFD600" transform="rotate(0) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFC000" transform="rotate(30) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFD600" transform="rotate(60) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFC000" transform="rotate(90) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFD600" transform="rotate(120) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFC000" transform="rotate(150) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFD600" transform="rotate(180) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFC000" transform="rotate(210) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFD600" transform="rotate(240) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFC000" transform="rotate(270) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFD600" transform="rotate(300) translate(0,-18)"/>
+        <ellipse rx="6" ry="20" fill="#FFC000" transform="rotate(330) translate(0,-18)"/>
+      </g>
+      <circle cx="50" cy="52" r="16" fill="#3a1500"/>
+      <circle cx="50" cy="52" r="12" fill="#2a0e00"/>
+      <circle cx="44" cy="47" r="1.8" fill="#5a2800"/><circle cx="50" cy="45" r="1.8" fill="#5a2800"/>
+      <circle cx="56" cy="47" r="1.8" fill="#5a2800"/><circle cx="59" cy="52" r="1.8" fill="#5a2800"/>
+      <circle cx="56" cy="58" r="1.8" fill="#5a2800"/><circle cx="50" cy="60" r="1.8" fill="#5a2800"/>
+      <circle cx="44" cy="58" r="1.8" fill="#5a2800"/><circle cx="41" cy="52" r="1.8" fill="#5a2800"/>
+      <circle cx="50" cy="52" r="2.5" fill="#5a2800"/>
+    </symbol>
+
+    <!-- TULIP -->
+    <symbol id="g-tulip" viewBox="0 0 80 160">
+      <path d="M40,90 L40,160" stroke="#4a8c1f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M40,115 C22,105 16,88 20,78 C30,94 38,108 40,115Z" fill="#3d7a18"/>
+      <path d="M40,132 C58,122 64,105 60,95 C50,111 42,125 40,132Z" fill="#3d7a18"/>
+      <path d="M40,90 C52,76 56,56 52,40 C48,28 44,24 40,24 C44,36 46,60 40,90Z" fill="#c81040"/>
+      <path d="M40,90 C28,76 24,56 28,40 C32,28 36,24 40,24 C36,36 34,60 40,90Z" fill="#c81040"/>
+      <path d="M40,90 C30,74 28,52 32,37 C35,27 40,22 40,22 C40,22 45,27 48,37 C52,52 50,74 40,90Z" fill="#e8184a"/>
+      <path d="M40,80 C36,64 35,48 38,35 C39,29 40,26 40,26 C40,26 41,29 42,35 C45,48 44,64 40,80Z" fill="#f44070" opacity="0.5"/>
+    </symbol>
+
+    <!-- ROSE -->
+    <symbol id="g-rose" viewBox="0 0 100 160">
+      <path d="M50,96 L50,160" stroke="#4a8c1f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M50,130 L40,122 L50,127Z" fill="#3d7a18"/>
+      <path d="M50,114 L60,106 L50,111Z" fill="#3d7a18"/>
+      <path d="M50,138 C32,128 24,110 28,100 C38,116 46,128 50,138Z" fill="#3d7a18"/>
+      <path d="M50,120 C68,110 76,92 72,82 C62,98 53,110 50,120Z" fill="#3d7a18"/>
+      <path d="M50,96 C43,90 38,80 40,72 C44,80 48,88 50,96Z" fill="#3a8c1a"/>
+      <path d="M50,96 C57,90 62,80 60,72 C56,80 52,88 50,96Z" fill="#3a8c1a"/>
+      <path d="M50,93 C34,85 26,70 28,57 C30,44 42,40 50,48 C58,40 70,44 72,57 C74,70 66,85 50,93Z" fill="#b80e26"/>
+      <path d="M50,86 C38,79 32,66 34,55 C36,44 44,42 50,50 C56,42 64,44 66,55 C68,66 62,79 50,86Z" fill="#cc1530"/>
+      <path d="M50,79 C41,73 36,62 38,53 C40,44 46,43 50,50 C54,43 60,44 62,53 C64,62 59,73 50,79Z" fill="#de2040"/>
+      <path d="M50,72 C44,67 40,58 42,50 C44,44 48,44 50,50 C52,44 56,44 58,50 C60,58 56,67 50,72Z" fill="#ee3052"/>
+      <path d="M50,65 C46,61 44,54 46,49 C47.5,45 50,48 50,56 C50,48 52.5,45 54,49 C56,54 54,61 50,65Z" fill="#f86080"/>
+      <circle cx="50" cy="52" r="4" fill="#ff90b0" opacity="0.8"/>
+    </symbol>
+
+    <!-- LILY -->
+    <symbol id="g-lily" viewBox="0 0 100 160">
+      <path d="M50,90 L50,160" stroke="#4a8c1f" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M50,112 C32,102 24,86 28,76 C38,92 46,104 50,112Z" fill="#3d7a18"/>
+      <path d="M50,130 C68,120 76,104 72,94 C62,110 53,122 50,130Z" fill="#3d7a18"/>
+      <g transform="translate(50,90)">
+        <ellipse cx="0" cy="-24" rx="9" ry="26" fill="#ff8fb8" transform="rotate(0)"/>
+        <ellipse cx="0" cy="-24" rx="9" ry="26" fill="#ffaacf" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-24" rx="9" ry="26" fill="#ff8fb8" transform="rotate(120)"/>
+        <ellipse cx="0" cy="-24" rx="9" ry="26" fill="#ffaacf" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-24" rx="9" ry="26" fill="#ff8fb8" transform="rotate(240)"/>
+        <ellipse cx="0" cy="-24" rx="9" ry="26" fill="#ffaacf" transform="rotate(300)"/>
+      </g>
+      <circle cx="50" cy="68" r="2.5" fill="#c84060" opacity="0.7"/>
+      <circle cx="50" cy="74" r="2" fill="#c84060" opacity="0.7"/>
+      <circle cx="42" cy="72" r="2" fill="#c84060" opacity="0.6"/>
+      <circle cx="58" cy="72" r="2" fill="#c84060" opacity="0.6"/>
+      <circle cx="50" cy="90" r="5" fill="#fff0a0"/>
+      <line x1="50" y1="90" x2="46" y2="71" stroke="#5a3000" stroke-width="1.5"/>
+      <line x1="50" y1="90" x2="54" y2="69" stroke="#5a3000" stroke-width="1.5"/>
+      <line x1="50" y1="90" x2="62" y2="80" stroke="#5a3000" stroke-width="1.5"/>
+      <line x1="50" y1="90" x2="38" y2="80" stroke="#5a3000" stroke-width="1.5"/>
+      <circle cx="46" cy="71" r="3" fill="#cc6000"/>
+      <circle cx="54" cy="69" r="3" fill="#cc6000"/>
+      <circle cx="62" cy="80" r="3" fill="#cc6000"/>
+      <circle cx="38" cy="80" r="3" fill="#cc6000"/>
+    </symbol>
+
+    <!-- UNICORN -->
+    <symbol id="g-unicorn" viewBox="0 0 200 140">
+      <path d="M168,70 Q192,44 196,58 Q192,74 170,80Z" fill="#ff6b9d"/>
+      <path d="M168,72 Q193,50 196,64 Q192,80 170,82Z" fill="#c084fc"/>
+      <path d="M168,74 Q191,58 193,72 Q190,84 170,84Z" fill="#67e8f9"/>
+      <ellipse cx="108" cy="78" rx="58" ry="30" fill="#fdf4ff"/>
+      <ellipse cx="108" cy="84" rx="46" ry="20" fill="#ede8ff" opacity="0.45"/>
+      <path d="M148,100 Q150,116 148,132" stroke="#ddd4ff" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M145,130 Q141,138 152,138" stroke="#c8c0f0" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M134,100 Q140,114 144,130" stroke="#e8e0ff" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M142,128 Q138,138 150,137" stroke="#c8c0f0" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M80,100 Q84,114 86,130" stroke="#ddd4ff" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M84,128 Q80,138 91,137" stroke="#c8c0f0" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M65,96 Q58,112 54,128" stroke="#e8e0ff" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M52,126 Q48,136 60,137" stroke="#c8c0f0" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M70,66 Q64,44 72,30 Q82,22 92,36 Q90,52 82,68Z" fill="#fdf4ff"/>
+      <path d="M74,28 Q80,42 74,58 Q82,44 82,60 Q88,46 88,62 Q92,48 94,62" stroke="#f472b6" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M74,28 Q80,42 74,58 Q82,44 82,60" stroke="#a78bfa" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M82,60 Q88,46 88,62 Q92,48 94,62" stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <ellipse cx="66" cy="24" rx="20" ry="15" fill="#fdf4ff" transform="rotate(-20,66,24)"/>
+      <polygon points="58,10 52,30 64,28" fill="#e8c000"/>
+      <line x1="57" y1="12" x2="53" y2="28" stroke="#c8a800" stroke-width="1.2"/>
+      <line x1="57" y1="18" x2="62" y2="17" stroke="#f8e060" stroke-width="1"/>
+      <line x1="55" y1="24" x2="62" y2="24" stroke="#f8e060" stroke-width="1"/>
+      <polygon points="76,13 80,5 84,13" fill="#fdf4ff"/>
+      <polygon points="77,13 80,7 83,13" fill="#ffc0da"/>
+      <circle cx="59" cy="22" r="5" fill="#180808"/>
+      <circle cx="57" cy="20" r="2" fill="white"/>
+      <circle cx="60" cy="23" r="1" fill="#382820"/>
+      <line x1="55" y1="18" x2="52" y2="15" stroke="#180808" stroke-width="1.3"/>
+      <line x1="58" y1="17" x2="56" y2="13" stroke="#180808" stroke-width="1.3"/>
+      <line x1="61" y1="18" x2="61" y2="14" stroke="#180808" stroke-width="1.3"/>
+      <ellipse cx="51" cy="31" rx="2.5" ry="1.5" fill="#e8d0e8" transform="rotate(-20,51,31)"/>
+    </symbol>
+
+    </defs>
+    </svg>
+
+    <div class="reading-progress" id="readingProgress"></div>
+
+    <!-- PAGE 1 -->
+    <section id="page1" class="page active">
+        <div class="text-box">
+            <h1>Hieeeee...... Merii kajukatli</h1>
+            <h2>I don't know tujhe ye kaisa lagega pasand aayegaa ya nahi bcoz I'm not good at surprises😭 <br> <i> But I want to make your every day special with me </i><br>Aur bohott pyaar se banayaa hai, I mean everything written here!!</h2>
+            <h3>chal abh phele gaanaa bajaa 👇<br> </h3>
+            <button class="btn1 music-btn" onclick="document.getElementById('bgmusic').play()"> Play Music 🎸 </button>
+        </div>
+        <div class="clothesline">
+            <svg class="rope-line" viewBox="0 0 1000 36" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,4 Q500,32 1000,4" stroke="#5a3208" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M0,4 Q500,32 1000,4" stroke="#c9973a" stroke-width="6" stroke-dasharray="10 5" stroke-dashoffset="0" stroke-linecap="round" fill="none"/>
+                <path d="M0,4 Q500,32 1000,4" stroke="#f0c97a" stroke-width="3" stroke-dasharray="10 5" stroke-dashoffset="5" stroke-linecap="round" fill="none"/>
+            </svg>
+            <div class="polaroid">
+                <img src="Images/F.jpeg" alt="Tannu" />
+            </div>
+            <div class="polaroid">
+                <img src="Images/E.jpeg" alt="Tannu" />
+            </div>
+            <div class="polaroid">
+                <img src="Images/P.jpeg" alt="Tannu" />
+            </div>
+        </div>
+        <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-letter">
+                <p>You feel like a chapter of my life I'd never want to end ❤️</p>
+            </div>
+        </div>
+        <div class="text-box2">
+            <p>Teko lag raha hoga na bohot jaldi jaldi ho raha hai sab and I know this scares you —</p>
+            <p>but plijj don't be scared. I'll always be your safe place, the person you can always come to crying. 🫂</p>
+            <p>I know mujhe console karna nhi aata, please don't hate me for that mei sikhhh jaunga pakka!!! 😭</p>
+            <p>I'll be your loudest cheerleader, especially during the bad times.</p>
+            <p>And you'll always find me standing right beside you, cheering for everything you do, whether it turns out good or bad, as long as you're happy with it 😚</p>
+        </div>
+        <button class="btn1" onclick="launchConfetti()">Click Here 🫵</button>
+    </section>
+
+    <!-- PAGE 2 -->
+    <section id="page2" class="page page2">
+        <div class="text-box3">
+            <h1>To My Prettiestt girl and my favourite human,</h1>
+            <h2>Teko pata hai jabse tu aayi hai na everything has changed, mei abh zyada positive rehne lagaa hu, zyada khush rehne laga hu, idk what this feeling is but everything I know now is YOU'RE THE ONE 😭 </h2>
+            <h3>13th May, 2026 woh ek swipe and my life changed after that. I found something I never want to lose. Not even in the next seven lives</h3>
+            <h2>Sach kahu toh when I first saw you I genuinely thought "ye toh aukaaat ke bahar hai bhaii" but still I didn't wanted to miss my chance. So I swiped and I was soo luckyy that we matched and were talking within <thead></thead> next 30mins</h2>
+            <h3>aur uss moment ke baaad bass ek hi darr thaa ki kahi tu unmatchh na kardee. And since our first conversation, I've been praying ki bhagwaaan iss cutuuu ko hamesha mere sath rakhnaa, Bohottt pyaarr se aur sambhaal ke rakhungaa ❤️</h3>
+            <h2>I know tu soch rahi hogi na ki ye ek hafte mei itna kyu kar raha hai, kaise kar rha, kahi bakchodi toh nhi hai, starting mei karegaa fir badal jayegaa. But trust me babbyy, the way I feel when I talk to you, the way I wait for your texts and calls, the way you randomly make my entire mood light up.</h2>
+            <h3>I've honestly never felt this way before. You in just few days made me feel things that no one could in years. </h3>
+            <h2>We still didn't meet but this is how we'll look together &nbsp &nbsp <span class="together-link" onclick="nextPage('page-together')" style="cursor:pointer; font-size: 14px;">CLick here</span> &nbsp &nbsp Cutee hai na!! 😭</h2>
+            <h3>I was at a point in my life where I stopped trying, stopped expecting, and locked myself away then I came Germany thinking I won't come back anytime soon! But now Germany feels harsh, I wanna be there, be with you, spend time, cigg fuknii hai bhai tere sathh. I knoww one day all this will be true and we'll be living like this.</h3>
+            <h2>You understand me in ways no one ever did. You accepted me with all my flaws, insecurities, overthiking, and everything I had</h2>
+            <h3>Mei toh thoda bondu bhi hu 😭, but still you choose me, and that honestly means more than you'll ever know. I used to hate myself the way i was but you taught me to love myself again 😘</h3>
+            <h2>And I promise, with time I'll only become better, not "perfect" just someone you'll be proud of, who loves you properlyy in everyway possible, understands you and makes you feel safe, valued and happyyy everyyy dayy!!! </h2>
+            <h3>Maine jo bhi promises kiyee hai, woh bass impress karne yaa juthee hopes dene ke liye nahi haiii. I will fulfill every single one of them 🥹</h3>
+            <h2>pta hai itna jaldi trust karna is not easyy but all i need is one chance, to show how deeply and genuinely i love youu!!</h2>
+            <h3>We still haven't met but somehow you're alreadyy sooo importantt to me, Now I can't imagine a day without you in it </h3>
+            <h2>you're the first person i textt in morning and the lastt one at night 😚</h2>
+            <h3>Honestly, I wanna love you in front of people that didn't. I want them to see how beautiful you become when you're treated right.</h3>
+            <h2></h2>
+            <h3></h3>
+            <h2>Your's 🐙</h2>
+
+            <div class="clothesline video-clothesline">
+                <svg class="rope-line" viewBox="0 0 1000 36" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0,4 Q500,32 1000,4" stroke="#5a3208" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    <path d="M0,4 Q500,32 1000,4" stroke="#c9973a" stroke-width="6" stroke-dasharray="10 5" stroke-dashoffset="0" stroke-linecap="round" fill="none"/>
+                    <path d="M0,4 Q500,32 1000,4" stroke="#f0c97a" stroke-width="3" stroke-dasharray="10 5" stroke-dashoffset="5" stroke-linecap="round" fill="none"/>
+                </svg>
+                <div class="polaroid">
+                    <video autoplay muted loop playsinline>
+                        <source src="videos/one.MP4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="polaroid">
+                    <video autoplay muted loop playsinline>
+                        <source src="videos/two.MP4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="polaroid">
+                    <video autoplay muted loop playsinline>
+                        <source src="videos/three.MP4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <button class="btn1" style="padding: 8px 22px; font-size: 12px;" onclick="nextPage('page3')"> Click Here 💕 </button>
+        </div>
+    </section>
+
+    <!-- PAGE 3 -->
+    <section id="page3" class="page">
+        <div class="text-box4">
+            <p class="final-q-label"></p>
+            <h1 class="final-q-title">The Final Question 🌸</h1>
+            <p class="final-q-sub">READYYYY???? </p>
+            <button class="btn1" style="margin-top: 32px;" onclick="nextPage('page4')">Click Here 💕</button>
+        </div>
+    </section>
+
+    <!-- PAGE 4 -->
+    <section id="page4" class="page proposal-page">
+        <div class="proposal-wrap">
+            <div class="proposal-ring">🐙🌷🦄</div>
+            <h1 class="proposal-title">Will you be my girlfriend??</h1>
+            <p class="proposal-msg">Jaldiiiii bataaaaa!!! aur Naa ka toh option hi nahi haii</p>
+            <div class="proposal-btns" id="proposalBtns">
+                <button class="btn-yes" onclick="sayYes()">Haan!! 💖</button>
+                <button class="btn-no" id="noBtn" onmouseover="dodgeNo(this)" ontouchstart="dodgeNo(this)" onclick="dodgeNo(this)">Nahi 💔</button>
+            </div>
+            <div id="yesMsg" class="yes-message"></div>
+        </div>
+
+        <!-- 3D Garden Scene -->
+        <div class="garden-scene">
+            <div class="gs-ground"></div>
+            <div class="gs-horizon"></div>
+
+            <div class="flower-strip fs-back">
+                <img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG">
+                <img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG">
+                <img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG">
+                <img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG">
+            </div>
+            <div class="flower-strip fs-mid">
+                <img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG">
+                <img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG">
+                <img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG">
+            </div>
+            <div class="flower-strip fs-front">
+                <img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/tulip.PNG">
+                <img class="gf" src="Images/rose.PNG"><img class="gf" src="Images/lily.PNG"><img class="gf" src="Images/tulip.PNG"><img class="gf" src="Images/rose.PNG">
+            </div>
+
+            <div class="gs-uni gu1"><img class="g-unicorn-svg" src="Images/unicorn.PNG"></div>
+            <div class="gs-uni gu2"><img class="g-unicorn-svg" src="Images/unicorn.PNG"></div>
+            <div class="gs-uni gu3"><img class="g-unicorn-svg" src="Images/unicorn.PNG"></div>
+        </div>
+    </section>
+
+    <!-- TOGETHER SECTION -->
+    <section id="page-together" class="page page-together">
+        <h1 class="together-page-title">That's gonna be us one day! Forsuree</h1>
+        <p class="together-page-sub">Can't wait to make this picture real ❤️</p>
+
+        <div class="gallery">
+
+            <div class="img-card">
+                <div class="img-deco tl">🌸</div>
+                <div class="img-deco tr">✨</div>
+                <div class="img-inner">
+                    <img src="Images/A.png" alt="Us">
+                </div>
+            </div>
+
+            <div class="img-card">
+                <div class="img-deco tl">💫</div>
+                <div class="img-deco tr">🌹</div>
+                <div class="img-inner">
+                    <img src="Images/B.png" alt="Us">
+                </div>
+            </div>
+
+            <div class="img-card">
+                <div class="img-deco tl">🌺</div>
+                <div class="img-deco tr">💖</div>
+                <div class="img-inner">
+                    <img src="Images/C.png" alt="Us">
+                </div>
+            </div>
+
+        </div>
+
+        <button class="back-btn" onclick="nextPage('page2')">← Go Back</button>
+    </section>
+
+<script>
+function nextPage(pageId) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    const next = document.getElementById(pageId);
+    next.classList.add('active');
+    next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+</script>
+<script>
+const progressBar = document.getElementById('readingProgress');
+window.addEventListener('scroll', () => {
+    const page2 = document.getElementById('page2');
+    if (!page2.classList.contains('active')) {
+        progressBar.style.opacity = '0';
+        return;
+    }
+    progressBar.style.opacity = '1';
+    const total = document.documentElement.scrollHeight - window.innerHeight;
+    progressBar.style.width = total > 0 ? Math.min((window.scrollY / total) * 100, 100) + '%' : '0%';
+});
+</script>
+<script>
+function launchConfetti() {
+    const colors = ['#FAAFBA','#f48fb1','#f06292','#ffd700','#ffffff','#ff69b4','#ffb6c1'];
+    for (let i = 0; i < 100; i++) {
+        const piece = document.createElement('div');
+        piece.classList.add('confetti-piece');
+        piece.style.left = (Math.random() * 100) + 'vw';
+        piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+        piece.style.width  = (5 + Math.random() * 8) + 'px';
+        piece.style.height = (5 + Math.random() * 8) + 'px';
+        piece.style.animationDuration = (0.9 + Math.random() * 1) + 's';
+        piece.style.animationDelay    = (Math.random() * 0.4) + 's';
+        piece.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+        document.body.appendChild(piece);
+        setTimeout(() => piece.remove(), 2000);
+    }
+    setTimeout(() => nextPage('page2'), 900);
+}
+
+function burstConfetti() {
+    const colors = ['#FAAFBA','#f48fb1','#f06292','#ffd700','#ffffff','#ff69b4','#ffb6c1','#ff4081'];
+    for (let i = 0; i < 180; i++) {
+        const piece = document.createElement('div');
+        piece.classList.add('confetti-piece');
+        piece.style.left = (Math.random() * 100) + 'vw';
+        piece.style.background = colors[Math.floor(Math.random() * colors.length)];
+        piece.style.width  = (5 + Math.random() * 10) + 'px';
+        piece.style.height = (5 + Math.random() * 10) + 'px';
+        piece.style.animationDuration = (1.2 + Math.random() * 1.4) + 's';
+        piece.style.animationDelay    = (Math.random() * 0.6) + 's';
+        piece.style.borderRadius = Math.random() > 0.5 ? '50%' : '2px';
+        document.body.appendChild(piece);
+        setTimeout(() => piece.remove(), 3000);
+    }
+}
+
+function sayYes() {
+    burstConfetti();
+    document.getElementById('proposalBtns').style.display = 'none';
+    const msg = document.getElementById('yesMsg');
+    msg.innerHTML = 'Yaayyyyyy🥳🥳🥳 <br>mujheee toh phele se hi pata thaaa! hehehe 😘 <br> I love you babieee ❤️';
+    msg.style.opacity = '1';
+    setTimeout(burstConfetti, 1500);
+}
+
+let noDodgeCount = 0;
+function dodgeNo(btn) {
+    noDodgeCount++;
+    const maxW = window.innerWidth  - btn.offsetWidth  - 20;
+    const maxH = window.innerHeight - btn.offsetHeight - 20;
+    btn.style.position = 'fixed';
+    btn.style.left = (20 + Math.random() * maxW) + 'px';
+    btn.style.top  = (20 + Math.random() * maxH) + 'px';
+    btn.style.zIndex = '9999';
+    if (noDodgeCount >= 3) btn.style.fontSize = Math.max(8, 16 - noDodgeCount * 2) + 'px';
+}
+</script>
+<script>
+const petalEmojis = ['🌸','✨','💛','🌺','⭐','💫','🌷','❤️','💕','🐙','🌹','🪻','🍕'];
+function spawnPetal() {
+    const p = document.createElement('div');
+    p.classList.add('floating-petal');
+    p.textContent = petalEmojis[Math.floor(Math.random() * petalEmojis.length)];
+    p.style.left = (Math.random() * 100) + 'vw';
+    p.style.fontSize = (10 + Math.random() * 14) + 'px';
+    p.style.opacity = (0.3 + Math.random() * 0.4).toString();
+    const dur = 10 + Math.random() * 8;
+    p.style.animationDuration = dur + 's';
+    p.style.animationDelay = (Math.random() * 2) + 's';
+    document.body.appendChild(p);
+    setTimeout(() => p.remove(), (dur + 3) * 1000);
+}
+setInterval(spawnPetal, 900);
+</script>
+<script>
+const sparkleChars = ['✦','✧','⋆','★','✨','💛','✩'];
+const sparkleColors = ['#FAAFBA','#f48fb1','#ffffff','#ffd700','#ffb6c1'];
+document.addEventListener('mousemove', function(e) {
+    const el = document.createElement('div');
+    el.classList.add('sparkle');
+    el.textContent = sparkleChars[Math.floor(Math.random() * sparkleChars.length)];
+    el.style.left = e.clientX + 'px';
+    el.style.top  = e.clientY + 'px';
+    el.style.color = sparkleColors[Math.floor(Math.random() * sparkleColors.length)];
+    const angle = Math.random() * Math.PI * 2;
+    const dist  = 25 + Math.random() * 35;
+    el.style.setProperty('--tx', Math.cos(angle) * dist + 'px');
+    el.style.setProperty('--ty', Math.sin(angle) * dist + 'px');
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 800);
+});
+</script>
+</body>
+</html>
